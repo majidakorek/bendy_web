@@ -1,0 +1,30 @@
+.row{
+    margin: auto;
+    width: 80%;
+}
+
+
+.slider_area{
+    text-align: center;
+   
+}
+
+.ADanimation{
+    width: 100%;
+  
+}
+
+
+
+.bg{
+    background: url(../../assets/bg/home acc.svg) no-repeat;
+    
+    background-position-y: 0px;
+    
+
+}
+
+.row2{
+    margin-top: 100px;
+    margin-left: 15%;
+}

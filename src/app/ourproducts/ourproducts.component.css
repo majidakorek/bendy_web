@@ -1,0 +1,97 @@
+.row{
+    margin: auto;
+    width: 80%;
+}
+
+.divo{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+@media (min-width: 601px){
+    .divo{
+        margin-left: 15%;
+    }
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    border: solid white;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f69320;
+    
+
+}
+
+.nav-pills .nav-link:hover {
+    border-radius: .25rem;
+    border: solid white;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    color: #f69320;
+    
+}
+
+
+@media (max-width:1350px){
+    .nav-pills .nav-link:hover,
+    .nav-pills .nav-link{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+}
+
+@media (max-width:970px){
+    .nav-pills .nav-link:hover,
+      .nav-pills .nav-link{
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:750px){
+    .nav-pills .nav-link:hover,
+    .nav-pills .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:600px){
+    .nav-pills .nav-link:hover,
+    .nav-pills .nav-link {
+        width: 400px;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+
+
+.rowy{
+    width: 90%;
+    margin: auto;
+}
+
+
+.bg{
+    background: url(../../assets/bg/our product.svg) no-repeat;
+    background-position-y: 0.8%;
+    
+}
+@media(max-width:1010px){
+    .bg{
+        background-position-y: 0%; 
+    }
+}
